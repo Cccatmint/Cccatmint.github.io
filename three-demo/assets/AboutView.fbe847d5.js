@@ -1,1 +1,0 @@
-import{_ as a,o as s,c as t,a as o}from"./index.7bc711f0.js";import"dat.gui";const n={},i={class:"about"},r=[o("h1",null,"This is an about page",-1)];const e=a(n,[["render",function(a,o){return s(),t("div",i,r)}]]);export{e as default};
