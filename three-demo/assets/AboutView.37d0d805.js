@@ -1,1 +1,0 @@
-import{_ as a,o as s,c as o,a as t}from"./index.0bb1adb9.js";import"vue-router";const r={},e={class:"about"},n=[t("h1",null,"This is an about page",-1)];const u=a(r,[["render",function(a,t){return s(),o("div",e,n)}]]);export{u as default};
