@@ -130,9 +130,7 @@ app.listen(3000, () => {
 ### 循环渲染
 
 ```ejs
-<%for(let i = 0; i<arr.length; i++){% >
-        <li>< %=arr[i] %></li>
-<% } %>
+
 ```
 
 ### 条件判断
