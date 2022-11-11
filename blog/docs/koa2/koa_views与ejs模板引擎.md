@@ -109,7 +109,7 @@ app.listen(3000, () => {
 
   index.ejs
 
-  ```ejs
+  ```js
   <%=userInfo.name%>
   ```
 
@@ -117,13 +117,13 @@ app.listen(3000, () => {
 
 ### 绑定数据
 
-```ejs
+```js
 <%=title%>
 ```
 
 ### 绑定html数据
 
-```ejs
+```js
 <%-htmlStr%>
 ```
 
@@ -135,7 +135,7 @@ app.listen(3000, () => {
 
 ### 条件判断
 
-```ejs
+```js
 <%if(isShow){%>
         <div>isShow == true</div>
     <%} else {%>
@@ -147,7 +147,7 @@ app.listen(3000, () => {
 
 h.ejs
 
-```ejs
+```js
 <h1>
     ???
 </h1>
@@ -156,7 +156,7 @@ h.ejs
 
 引入到Index.ejs中
 
-```ejs
+```js
 <%- include('h.ejs', {})%>
 ```
 
