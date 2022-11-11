@@ -110,7 +110,7 @@ app.listen(3000, () => {
   index.ejs
 
   ```ejs
-  <\%=userInfo.name\%>
+  <%=userInfo.name%>
   ```
 
   
@@ -118,31 +118,31 @@ app.listen(3000, () => {
 ### 绑定数据
 
 ```ejs
-<\%=title\%>
+<%=title%>
 ```
 
 ### 绑定html数据
 
 ```ejs
-<\%-htmlStr\%>
+<%-htmlStr%>
 ```
 
 ### 循环渲染
 
 ```ejs
-<\%for(let i = 0; i<arr.length; i++){\%>
-        <li><\%=arr[i]\%></li>
-<\%}\%>
+<%for(let i = 0; i<arr.length; i++){% >
+        <li>< %=arr[i] %></li>
+<% } %>
 ```
 
 ### 条件判断
 
 ```ejs
-<\%if(isShow){\%>
+<%if(isShow){%>
         <div>isShow == true</div>
-    <\%} else {\%>
+    <%} else {%>
         <div>isShow == true</div>
-<\%}\%>
+<%}%>
 ```
 
 ### 公共模板
